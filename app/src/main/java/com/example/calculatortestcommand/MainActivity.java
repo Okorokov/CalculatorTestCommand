@@ -17,12 +17,11 @@ public class MainActivity extends AppCompatActivity{
         setContentView(R.layout.activity_main);
 
         calc=new Calc();
-        calc.setX(5.0);
-        calc.setY(6.0);
-
         logic=new Logic();
-        calc.setEqually(logic.onSum(calc.getX(),calc.getY()));
+        double inputFromViewY = 0;
+        double x = calc.getEqually();
+        calc.setEqually(logic.onSum(calc.getEqually(), inputFromViewY));
 
-        Log.d(this.getLocalClassName(), calc.getX()+" + "+calc.getY()+" = "+calc.getEqually());
+        Log.d(this.getLocalClassName(), x + " + "+inputFromViewY + " = "+calc.getEqually());
     }
 }
