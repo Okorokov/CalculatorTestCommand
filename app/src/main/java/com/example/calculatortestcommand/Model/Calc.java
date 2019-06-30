@@ -1,7 +1,7 @@
 package com.example.calculatortestcommand.Model;
 
 
-public class Calc{
+public class Calc {
 
     private double x;
     private double y;
