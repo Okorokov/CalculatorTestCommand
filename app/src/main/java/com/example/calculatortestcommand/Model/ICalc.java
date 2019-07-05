@@ -1,4 +1,4 @@
-package com.example.calculatortestcommand;
+package com.example.calculatortestcommand.Model;
 
 
 public interface ICalc {

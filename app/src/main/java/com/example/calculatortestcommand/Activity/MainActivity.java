@@ -1,12 +1,14 @@
-package com.example.calculatortestcommand;
+package com.example.calculatortestcommand.Activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.example.calculatortestcommand.MainContract;
 import com.example.calculatortestcommand.Presenter.Presenter;
+import com.example.calculatortestcommand.R;
 
-public class MainActivity extends AppCompatActivity implements MainContract.View{
+public class MainActivity extends AppCompatActivity implements MainContract.View {
 
     private MainContract.Presenter mPresenter;
 

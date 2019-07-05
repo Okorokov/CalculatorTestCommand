@@ -1,6 +1,6 @@
 package com.example.calculatortestcommand.Presenter;
 
-import com.example.calculatortestcommand.ICalc;
+import com.example.calculatortestcommand.Model.ICalc;
 import com.example.calculatortestcommand.MainContract;
 import com.example.calculatortestcommand.Model.Calc;
 
